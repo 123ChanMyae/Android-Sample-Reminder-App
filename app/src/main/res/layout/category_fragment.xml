@@ -1,0 +1,22 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    tools:context="com.example.materialdesign.reminder.fragments.CategoryFragment">
+
+   <include
+       android:id="@+id/tv_show_message"
+       layout="@layout/show_message_category_layout"
+       />
+
+
+   <android.support.v7.widget.RecyclerView
+       android:id="@+id/recyclerView"
+       android:layout_width="match_parent"
+       app:layout_behavior="@string/appbar_scrolling_view_behavior"
+       android:layout_height="match_parent"
+       android:scrollbars="vertical"/>
+
+
+</FrameLayout>

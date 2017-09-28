@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/eventHeaderLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:background="?attr/MainContainerBackground"
+        >
+        <TextView
+            android:id="@+id/tvCategoryTitle"
+            android:text="For School"
+            android:textColor="?attr/TextMenuHeader"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:layout_centerVertical="true"
+            android:textSize="22sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <com.example.materialdesign.reminder.view.ColorCircle
+            android:id="@+id/categoryColorIcon"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_toRightOf="@id/tvCategoryTitle"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            />
+        <ImageView
+            android:id="@+id/addEvent"
+            android:layout_marginRight="10dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_add"/>
+    <ImageView
+        android:id="@+id/imgDeleteCat"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="3dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/ic_delete"/>
+    <ImageView
+        android:id="@+id/imgEditCat"
+        android:layout_marginRight="50dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/ic_pencil_edit"
+        />
+
+    </RelativeLayout>
+

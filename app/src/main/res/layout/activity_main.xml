@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sothree.slidinguppanel.SlidingUpPanelLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sothree="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/sliding_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom"
+    sothree:umanoPanelHeight="0dp"
+    sothree:umanoShadowHeight="4dp"
+    sothree:umanoParallaxOffset="100dp"
+    sothree:umanoDragView="@+id/dragView"
+    sothree:umanoOverlay="true"
+    >
+
+    <!-- MAIN CONTENT -->
+    <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/main_content"
+        android:clickable="true"
+        android:focusable="false"
+        android:focusableInTouchMode="true"
+        android:layout_width="match_parent"
+        android:background="?attr/MainContainerBackground"
+        android:layout_height="match_parent">
+
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/appbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/MainContainerBackground"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:gravity="right"
+                app:layout_scrollFlags="scroll|enterAlways|snap"
+                android:layout_height="64dp">
+
+                <ImageView
+                    android:id="@+id/setting_icon"
+                    android:layout_width="64dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_settings_black_24dp"
+                    android:layout_gravity="center"
+                    android:padding="15dp"
+                    android:layout_marginRight="10dp"
+                    android:visibility="visible"
+                    />
+
+                <Button
+                    android:id="@+id/btnAll"
+                    android:text="All Events"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:textAllCaps="false"
+                    android:layout_height="50dp"
+                    style="?android:borderlessButtonStyle"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="?attr/TextMenuHeader"
+                    android:background="@drawable/menu_button_background"/>
+
+                <Button
+                    android:id="@+id/btnCategory"
+                    android:text="Category"
+                    android:textAllCaps="false"
+                    android:textColor="?attr/TextMenuHeader"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    style="?android:borderlessButtonStyle"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="20dp"
+                    android:padding="3dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/menu_button_background"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:gravity="right"
+                android:layout_height="64dp">
+
+                <TextView
+                    android:id="@+id/tvAddCategory"
+                    android:gravity="center"
+                    android:text="Add Category"
+                    android:textSize="18sp"
+                    android:textColor="@color/colorAccent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"/>
+                <TextView
+                    android:id="@+id/tvEdit"
+                    android:text="Edit"
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    android:textColor="@color/colorAccent"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp" />
+
+            </LinearLayout>
+
+        </android.support.design.widget.AppBarLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/containerFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            />
+
+    </android.support.design.widget.CoordinatorLayout>
+
+    <!-- SLIDING LAYOUT -->
+    <include
+        layout="@layout/event_edit_add_layout"/>
+</com.sothree.slidinguppanel.SlidingUpPanelLayout>

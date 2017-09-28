@@ -1,0 +1,63 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <!-- Dark Theme-->
+    <style name="AppThemeDark" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:editTextColor">@color/color_circle_gray</item>
+        <item name="TextMenuHeader">@color/color_white</item>
+        <item name="MainContainerBackground">@color/colorPrimary</item>
+        <item name="icon_color">@color/icon_light</item>
+        <item name="event_item_background">@color/eventBackgroundDark</item>
+        <item name="event_item_selected">@color/eventBackgroundSelectedDark</item>
+        <item name="event_title_color">@color/color_white</item>
+        <item name="event_time_place_color">@color/event_time_light_color</item>
+        <item name="message_layout_color">@color/message_layout_dark_color</item>
+        <item name="edittext_color">@color/colorPrimaryDark</item>
+        <item name="edittext_bottombar_color">@color/eventBackgroundSelected</item>
+        <item name="android:textColorHint">@color/edittext_hint_dark_color</item>
+        <item name="box_color">@color/eventBackground</item>
+        <item name="save_button_background">@color/eventBackground</item>
+        <item name="date_time_text_color">@color/color_white</item>
+    </style>
+
+
+    <!-- Light Theme Style -->
+    <style name="AppThemeLight" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary2</item>
+        <item name="colorPrimaryDark">@android:color/transparent</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:editTextColor">@color/color_dark</item>
+        <item name="TextMenuHeader">@color/color_dark_light</item>
+        <item name="MainContainerBackground">@color/color_white</item>
+        <item name="icon_color">@color/icon_dark</item>
+        <item name="event_item_background">@color/eventBackgroundLight</item>
+        <item name="event_item_selected">@color/eventBackgroundSelectedLight</item>
+        <item name="event_title_color">@color/color_dark</item>
+        <item name="event_time_place_color">@color/event_time_dark_color</item>
+        <item name="message_layout_color">@color/message_layout_light_color</item>
+        <item name="edittext_color">@color/color_white</item>
+        <item name="edittext_bottombar_color">@color/eventBackgroundLight</item>
+        <item name="android:textColorHint">@color/edittext_hint_light_color</item>
+        <item name="box_color">@color/eventBackgroundLight</item>
+        <item name="save_button_background">@color/eventBackgroundLight</item>
+        <item name="date_time_text_color">@color/date_time_dark_color</item>
+    </style>
+
+
+    <style name="MyDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:background">@color/eventBackground</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="android:textColorSecondary">#ffffff</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+
+</resources>

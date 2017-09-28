@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Reminder</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="Min">Min</string>
+    <string name="Hour">Hour</string>
+
+    <string name="show_category_create_message">Add Category to Create Remind Events</string>
+    <string name="show_event_create_message">You can Create Events at Category</string>
+
+    <!-- sharepref name -->
+    <string name="user_pref">UsersPref</string>
+    <string name="first_time_event_message">First Time Event Message</string>
+
+
+    <string name="search">Search</string>
+    <string name="edit">Edit</string>
+    <string name="search_events">Search Events</string>
+    <string name="no_detail">No Detail</string>
+
+    <!-- menu item -->
+    <string name="menu_edit">Edit</string>
+    <string name="menu_delete">Delete</string>
+    <string name="menu_detail">Detail</string>
+
+
+    <!-- dialog -->
+    <string name="choose_theme">Choose Theme</string>
+    <string name="delete_cofirm_message">This will delete all events in this category</string>
+    <string name="confirm_sure">Are you sure?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <string-array name="colors">
+        <item>#73d216</item>
+        <item>#ff7f2a</item>
+        <item>#5fbcd3</item>
+        <item>#edd400</item>
+        <item>#ff99ff</item>
+        <item>#00ffff</item>
+        <item>#ff5955</item>
+    </string-array>
+
+    <string-array name="type_of_theme">
+        <item>Dark Theme</item>
+        <item>Light Theme</item>
+    </string-array>
+
+    <string name="theme_style">Theme_Style</string>
+</resources>

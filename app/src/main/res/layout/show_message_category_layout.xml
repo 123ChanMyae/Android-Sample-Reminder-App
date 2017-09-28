@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <TextView
+        android:id="@+id/tv_show_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="?attr/event_title_color"
+        android:layout_gravity="top"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:alpha="0.3"
+        android:text="@string/show_category_create_message"
+        />
+
+</merge>

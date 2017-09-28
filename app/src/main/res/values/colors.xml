@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#ff8059</color>
+    <color name="eventBackground">#474c4f</color>
+    <color name="eventBackgroundSelected">#535a5e</color>
+    <color name="smallTextColor">#c8cacb</color>
+    <color name="color_circle_gray">#c8cacb</color>
+    <color name="mdtp_accent_color">#009688</color>
+    <color name="mdtp_accent_color_dark">#00796b</color>
+    <color name="search_box_color">#454a4d</color>
+    <color name="search_view_focus">#464b4e</color>
+
+
+    <color name="color1">#73d216</color>
+    <color name="color2">#ff7f2a</color>
+    <color name="color3">#5fbcd3</color>
+    <color name="color4">#edd400</color>
+    <color name="color5">#ff53ff</color>
+    <color name="color6">#00ffff</color>
+    <color name="color7">#ff5955</color>
+
+
+
+    <!-- Dark Theme colors -->
+    <color name="colorPrimary">#3b4043</color>
+    <color name="colorAccentDark">#ff8059</color>
+    <color name="color_white">#ffffff</color>
+    <color name="colorPrimaryDark">#3b4043</color>
+    <color name="icon_light">#77ffffff</color>
+    <color name="eventBackgroundDark">#474c4f</color>
+    <color name="eventBackgroundSelectedDark">#535a5e</color>
+    <color name="event_time_light_color">#c8cacb</color>
+    <color name="message_layout_dark_color">#454a4d</color>
+    <color name="edittext_hint_dark_color">#22eeeeee</color>
+
+
+    <!-- Light Theme colors -->
+
+    <color name="colorPrimary2">#ffffff</color>
+    <color name="color_dark">#000000</color>
+    <color name="color_dark_light">#99000000</color>
+    <color name="colorPrimaryDark2">#ffffff</color>
+    <color name="icon_dark">#99000000</color>
+    <color name="eventBackgroundLight">#eae9e9</color>
+    <color name="eventBackgroundSelectedLight">#d7d7d7</color>
+    <color name="event_time_dark_color">#3b4043</color>
+    <color name="message_layout_light_color">#d7d7d7</color>
+    <color name="edittext_hint_light_color">#22484747</color>
+    <color name="date_time_dark_color">#66000000</color>
+
+</resources>
