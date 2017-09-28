@@ -12,6 +12,7 @@ Features
 
 
 ScreenShots
-![Light Theme Screenshot](https://drive.google.com/open?id=0B1m6aCZEuAs6OEF0bl9fYU5IZlU)
-![Dark Theme Screenshot](https://drive.google.com/open?id=0B1m6aCZEuAs6WHdvWUJXYUZDTTA)
+![Light Theme](https://user-images.githubusercontent.com/23009404/30967459-57055d34-a42a-11e7-820b-0e058730635b.jpg)
+![Dark Theme](https://user-images.githubusercontent.com/23009404/30967477-60440cf6-a42a-11e7-99d3-c7ec6703ed74.jpg)
+
 
