@@ -1,4 +1,4 @@
-# Android-Sample-Reminder-App
+# Android-Reminder-App
 This is a sample Light-weight Reminder app
 
 
